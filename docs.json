@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "SameDayCustom Vendor Docs",
   "colors": {
     "primary": "#006AFF",
@@ -11,22 +11,15 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
         "groups": [
           {
             "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["pages/start/index", "pages/start/create"]
           },
           {
             "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "pages": ["essentials/settings", "essentials/navigation"]
           },
           {
             "group": "Writing content",
@@ -46,77 +39,28 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/sdclogo-light.svg",
+    "dark": "/logo/sdclogo-dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:info@samedaycustom.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    "options": ["copy", "chatgpt", "claude", "perplexity"]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://partner.samedaycustom.com",
+      "instagram": "https://instagram.com/samedaycustom"
     }
   }
 }
