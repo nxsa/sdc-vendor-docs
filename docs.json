@@ -15,7 +15,26 @@
         "groups": [
           {
             "group": "Getting started",
-            "pages": ["pages/start/index", "pages/start/create"]
+            "pages": ["pages/start/index", "pages/start/create", "pages/start/setup", "pages/start/assign-users"]
+          },
+          {
+            "group": "Handling Orders",
+            "pages": [
+              "pages/orders/accepting-orders",
+              "pages/orders/reviewing-artwork",
+              "pages/orders/producing-an-order",
+              "pages/orders/delivery-fulfillment",
+              "pages/orders/customer-chat",
+              "pages/orders/internal-notes"
+            ]
+          },
+          {
+            "group": "Communication",
+            "pages": ["pages/communication/chat-with-admin"]
+          },
+            {
+            "group": "User Management",
+            "pages": ["pages/user-management/roles-and-permission", "pages/user-management/creating-a-user"]
           },
           {
             "group": "Customization",
