@@ -18,6 +18,10 @@
             "pages": ["pages/start/index", "pages/start/create"]
           },
           {
+            "group": "Support",
+            "pages": ["pages/faq", "pages/refunds"]
+          },
+          {
             "group": "Customization",
             "pages": ["essentials/settings", "essentials/navigation"]
           },
