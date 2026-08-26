@@ -32,9 +32,13 @@
             "group": "Communication",
             "pages": ["pages/communication/chat-with-admin"]
           },
-            {
+          {
             "group": "User Management",
             "pages": ["pages/user-management/roles-and-permission", "pages/user-management/creating-a-user"]
+          },
+          {
+            "group": "Support",
+            "pages": ["pages/faq", "pages/refunds"]
           }
         ]
       }
