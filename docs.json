@@ -35,12 +35,16 @@
           {
             "group": "User Management",
             "pages": ["pages/user-management/roles-and-permission", "pages/user-management/creating-a-user"]
-          },
-          {
-            "group": "Support",
-            "pages": ["pages/faq", "pages/refunds"]
           }
         ]
+      },
+      {
+        "tab": "Frequently asked questions",
+        "pages": ["pages/faq"]
+      },
+      {
+        "tab": "Handling refunds",
+        "pages": ["pages/refunds"]
       }
     ]
   },
