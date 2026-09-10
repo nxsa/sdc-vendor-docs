@@ -47,7 +47,10 @@
         "pages": ["pages/refunds"]
       },
       {
-        "tab": "Video Library"
+        "tab": "Video Library",
+        "pages": [
+          "untitled-page"
+        ]
       }
     ]
   },
