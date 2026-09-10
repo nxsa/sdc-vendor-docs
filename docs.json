@@ -47,12 +47,12 @@
         "pages": ["pages/refunds"]
       },
       {
-        "tab": "Video Library",
+        "tab": "Videos",
         "pages": [
-          "untitled-page",
-          "untitled-page-2",
-          "untitled-page-3",
-          "untitled-page-4"
+          "pages/videos/order-processing",
+          "pages/videos/analytics-reporting",
+          "pages/videos/general",
+          "pages/videos/store-management"
         ]
       }
     ]
