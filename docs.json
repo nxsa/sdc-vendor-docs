@@ -45,6 +45,9 @@
       {
         "tab": "Handling refunds",
         "pages": ["pages/refunds"]
+      },
+      {
+        "tab": "Video Library"
       }
     ]
   },
